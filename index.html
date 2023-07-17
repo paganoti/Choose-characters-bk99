@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose character</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/Brooklyn_Nine-Nine_Logo.png" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="peralta" data-name="Jake Peralta" data-description="Jake is an Ashkenazi-Sephardic Jewish male with dark brown hair and brown eyes. He used to wear a watch on his left wrist in the earlier episodes, his police badge on a chain around his neck and starting from the Season 5 Finale, a wedding ring on his left finger.">
+            <img
+              src="./src/imagens/card-peralta.jpeg"
+              alt="Personagem"
+            />
+          </li>
+          <li class="personagem" id="charles" data-name="Charles Boyle" data-description="Detective Charles Boyle is a main character of the show. He is the precinct's workhorse. He is shown to be not that brilliant, and not physically gifted, although he tries harder than anyone else.">
+            <img
+              src="./src/imagens/card-charles.jpeg"
+              alt="Personagem "
+            />
+          </li>
+
+          <li class="personagem" id="santiago" data-name="Emi Santiago" data-description="Chief Amy Santiago (born 1982/1983) is a main character of the show. She is a Chief of Department, former sergeant and a former detective at the 99th precinct of the NYPD. Always eager to impress, Amy is looking for a mentor to help her achieve her dream of being the youngest person to be promoted to Captain.">
+            <img
+              src="./src/imagens/card-santiago.jpeg"
+              alt="Personagem "
+            />
+          </li>
+
+          <li class="personagem" id="terry" data-name="Terry Jeffords" data-description="Terrence “Terry” Vincent Jeffords is a main character of the show. He is a linebacker of a man who's lost his nerve, not because he's a wimp, but because a year prior to the series, his wife Sharon had twin baby girls; Cagney and Lacey, and he can't imagine not seeing them grow up.">
+            <img
+              src="./src/imagens/card-terry.jpeg"
+              alt="Personagem "
+            />
+          </li>
+
+          <li class="personagem" id="rosa" data-name="Rosa Diaz" data-description="Rosalita Rosa Diaz is a main character of the show. She is considered the tough guy and the badass in the Precinct. Rosa is scary, smart, secretive, and difficult to read. ">
+            <img
+              src="./src/imagens/card-rosa.jpeg"
+              alt="Personagem "
+            />
+          </li>
+
+          <li class="personagem" id="ray" data-name="Raymond Holt" data-description="Deputy Commissioner Raymond Jacob Holt is one of the main characters of the show. He was the Captain of the 99th Precinct and was formerly a uniformed officer. Outwardly he is strict, hardworking, stoic, staunchly professional, and a stickler for the rules. ">
+            <img
+              src="./src/imagens/card-ray.jpeg"
+              alt="Personagem "
+            />
+          </li>
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-peralta.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Jake Peralta</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Jake is an Ashkenazi-Sephardic Jewish male with dark brown hair and brown eyes. He is often seen wearing a button-down plaid shirt, a blue or red unzipped hoodie, jeans and at times, a stylish, black leather jacket. At Captain Holt's request, Jake has taken to sometimes wearing a tie. He used to wear a watch on his left wrist in the earlier episodes, his police badge on a chain around his neck and starting from the Season 5 Finale, a wedding ring on his left finger.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
